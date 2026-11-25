@@ -1,0 +1,31 @@
+:root {
+  --primario: #597e1d;
+  --secundario: #4eb858;
+  --acento: #baffc0;
+  --fondo: #000000;
+  --texto: #28b934;
+}
+
+body{
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto);
+  background-color: var(--fondo);
+}
+
+h1, h2, h3 { color: var(--primario);}
+
+a { color: var(--secundario); text-decoration: none;}
+a:hover { color: var(--acento); text-decoration: underline;}
+
+.destacado {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
